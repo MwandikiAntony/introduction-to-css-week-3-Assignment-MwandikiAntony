@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastering CSS Basics: Styling Your First Web Page</title>
+
+  <!-- Internal CSS -->
+  <style>
+    /* Part 1: Element Selector */
+    h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    /* Class Selector */
+    .description {
+      background-color: lightyellow;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    /* ID Selector */
+    #main-title {
+      border: 2px solid #444;
+      padding: 10px;
+    }
+
+    /* Internal Styles for Part 2 */
+    body {
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      font-family: 'Arial', sans-serif;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Simple Card Component Styling */
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-family: 'Verdana', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .card-description {
+      font-size: 16px;
+      color: #666;
+    }
+  </style>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Inline CSS example -->
+  <h1 style="color: blue;">This is an inline styled heading.</h1>
+
+  <!-- Content with Internal CSS Styles -->
+  <h1 id="main-title">Welcome to My Web Page</h1>
+  <p class="description">This is an example of a paragraph styled with class selectors.</p>
+  <div class="card">
+    <h2>Card Title</h2>
+    <p>This is some text inside a card component. It uses padding and margin for proper spacing.</p>
+  </div>
+
+  <!-- More content for demonstration -->
+  <div class="card">
+    <h3 class="card-title">Card Title</h3>
+    <p class="card-description">This is a description of the card content. It has some padding and margin for layout adjustment.</p>
+  </div>
+
+</body>
+</html>

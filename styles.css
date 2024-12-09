@@ -1,0 +1,18 @@
+
+
+/* Change the background color of the webpage */
+body {
+    background-color: #e0f7fa;
+  }
+  
+  /* Style links with hover effects */
+  a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #004d40;
+    text-decoration: underline;
+  }
+  
